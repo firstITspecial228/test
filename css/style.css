@@ -1,0 +1,128 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.container {
+    max-width: 1440px;
+    margin: auto;    
+}
+.mobile-ins {
+    display: none;
+}
+header {
+    border-bottom: 0.1em solid #263238;
+    z-index: 1;
+}
+header .row {
+    display: flex;
+    align-items: center;
+    margin: 0px 0 0px 14%;
+    height: 96px;   
+}
+header nav {
+    margin: 0 116px 0 6%;
+    width: 600px;
+}
+header ul {
+    display: flex;
+    width: 100%;
+}
+header .header-logo {
+    font-weight: bold;
+    font-size: 2.6em;
+    line-height: 56px;
+    letter-spacing: -1px;
+    color: #2D3436;
+    position: relative;
+}
+header .header-logo::before {
+    content: '';
+    position: absolute;
+    bottom: 13px;
+    left: -52.25px;
+    background: url(../img/Vector.svg) no-repeat center;
+    width: 31.5px;
+    height: 31.5px;
+}
+.header-menu {
+    line-height: 32px;
+    padding: 0 20px;
+}
+.header-menu-items {
+    color: #6C5CE7;
+}
+.header-menu-items:hover {
+    font-weight: bold;
+    color: black;
+}
+.header-btn {
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    background: #2D3436;
+    border-radius: 999px;
+    width: 170px;
+    height: 64px;
+}
+section .container #strong-h1, span {
+    font-weight: 800;
+    font-size: 96px;
+    text-align: center;
+    letter-spacing: -3px;
+    color: #2D3436;
+    text-shadow: 0px 4px 0px #FFFFFF;
+    margin: 80px 0 20px 0;
+    text-align: center;
+}
+.h1-pink .mobile-deleted,.h1-pink .mobile-ins {
+    color: #E84393;
+}
+.title-subtext {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -1px;
+    color: #2D3436;
+    text-align: center;
+}

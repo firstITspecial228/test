@@ -1,0 +1,68 @@
+* {
+    font-size: small;
+}
+.container {
+    width: 100%;
+}
+header .row {
+    margin: 0;
+    height: 72px;
+
+}
+.mobile-deleted {
+    display: none;
+}
+.mobile-ins {
+    display: inline;
+}
+header .header-logo {
+    margin: 0 40% 0 55px;
+    font-size: 1.8em;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #5C5C5C;
+}
+header .header-logo::before {
+    background: url(../img/mobile-header-icon-menu.svg) no-repeat center;
+    bottom: 3px;
+    left: -39px;
+}
+.header-btn {
+    font-size: 1.4em;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    max-width: 128px;
+    min-width: 90px;
+    height: 40px;
+    border-radius: 8px;
+}
+section h1 h1#strong-h1, .mobile-ins, #strong-h1, #img{
+    font-size: 48px;
+    line-height: 56px;
+} 
+.h1-pink {
+    position: relative;
+}
+h1#strong-h1 span.h1-pink::before {
+    width: 191px;
+    height: 51px;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#strong-h1 .strong-mobile {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    display: block;
+    margin: 0;
+}
+.title-subtext span {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #2D3436;
+}
