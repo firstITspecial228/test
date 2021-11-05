@@ -1,12 +1,18 @@
 * {
     font-size: small;
 }
+body {
+    background: 
+    url(../img/mobile-Rectangle.png) no-repeat right top calc(72px),
+    url(../img/mobile-Wave.svg) repeat-x left top calc(72px);
+}
 .container {
     width: 100%;
 }
 header .row {
     margin: 0;
     height: 72px;
+    position: relative;
 
 }
 .mobile-deleted {
@@ -36,6 +42,9 @@ header .header-logo::before {
     min-width: 90px;
     height: 40px;
     border-radius: 8px;
+    position: absolute;
+    right: 5%;
+    top: 22%; 
 }
 section h1 h1#strong-h1, .mobile-ins, #strong-h1, #img{
     font-size: 48px;

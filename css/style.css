@@ -40,6 +40,9 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+body {
+    background: url(../img/comp-Rectangle.svg) no-repeat right top calc(100px);
+}
 .container {
     max-width: 1440px;
     margin: auto;    
@@ -117,6 +120,9 @@ section .container #strong-h1, span {
 }
 .h1-pink .mobile-deleted,.h1-pink .mobile-ins {
     color: #E84393;
+    background: url(../img/BG.png) no-repeat bottom left calc(-40px);
+    background-size: 190px 51px;
+    border-radius: 50px;    
 }
 .title-subtext {
     font-weight: 900;
